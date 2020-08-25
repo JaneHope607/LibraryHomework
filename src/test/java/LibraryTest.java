@@ -9,8 +9,8 @@ public class LibraryTest {
 
     @Before
     public void before() {
-        library = new Library();
-        book = new Book();
+        library = new Library(15);
+        book = new Book("Wuthering Heights", "Jane Eyre", "romance");
     }
 
     @Test
